@@ -16,7 +16,7 @@ filename = "client.py"
 
 # GitHub API endpoint for getting the latest commit timestamp
 
-endpoint = f"https://api.github.com/tanmayd004/client-file-auto-update/commits?path=client.py&per_page=1"
+endpoint = f"https://api.github.com/repos/tanmayd004/client-file-auto-update/commits?path=client.py&per_page=1"
 
 def check_for_updates():
 
