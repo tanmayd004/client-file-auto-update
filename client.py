@@ -44,7 +44,7 @@ def update():
 
     # Download the latest file from GitHub
 
-    response = requests.get(f"https://raw.githubusercontent.com/{owner}/{repo}/main/{filename}")
+    response = requests.get(f"https://raw.githubusercontent.com/tanmayd004/client-file-auto-udate/client.py")
 
     with open(filename, "wb") as f:
 
