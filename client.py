@@ -4,6 +4,8 @@ import os
 
 import time
 
+version = 1.1
+
 # GitHub repository information
 
 owner = "tanmayd004"
